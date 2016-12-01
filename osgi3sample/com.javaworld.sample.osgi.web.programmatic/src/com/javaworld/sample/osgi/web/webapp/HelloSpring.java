@@ -7,6 +7,6 @@ public class HelloSpring {
 	}
 	
 	public void stop() throws Exception{
-		System.out.println("Goodbye from HelloSpring");
+		System.out.println("Goodbye from HelloSpring ");
 	}
 }

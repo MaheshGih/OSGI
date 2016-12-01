@@ -16,7 +16,7 @@ public class HttpServiceTracker extends ServiceTracker{
 		try {			
 			httpService.registerResources("/helloworld.html", "/helloworld.html", null);
 			httpService.registerServlet("/helloworld", new HelloWorldServlet(), null, null);
-			System.out.println("Programatic");
+			System.out.println("Programatic ");
 
 		} catch (Exception e) {
 			e.printStackTrace();
