@@ -11,6 +11,11 @@ public class HelloWorldServlet extends HttpServlet{
 
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
+<<<<<<< HEAD
 		resp.getWriter().println("<h3>Hello from HelloWorldServlet Form declarative </h3>");
+=======
+		resp.getWriter().println("<h3>Hello from HelloWorldServlet Form declarative Hello</h3>");
+>>>>>>> origin/master
 	}
+
 }
