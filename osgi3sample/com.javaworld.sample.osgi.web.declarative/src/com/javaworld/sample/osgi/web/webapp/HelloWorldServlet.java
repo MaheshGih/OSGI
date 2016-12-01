@@ -13,5 +13,4 @@ public class HelloWorldServlet extends HttpServlet{
 		resp.setContentType("text/html");
 		resp.getWriter().println("<h3>Hello from HelloWorldServlet Form declarative </h3>");
 	}
-
 }
