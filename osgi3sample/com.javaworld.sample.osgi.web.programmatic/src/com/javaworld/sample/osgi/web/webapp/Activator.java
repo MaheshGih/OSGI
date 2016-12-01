@@ -13,7 +13,7 @@ public class Activator implements BundleActivator {
 	}
 	
 	public void stop(BundleContext context) throws Exception {
-		System.out.println("Goodbye World!! Hi");
+		System.out.println("Goodbye World!!  Hi");
 		httpServiceTracker.close();
 		httpServiceTracker = null;
 	}
